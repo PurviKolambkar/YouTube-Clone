@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+header{
+    width: 100%;
+}
+.logo{
+    width: 80px;
+    height: 40px;
+    padding: 5px;
+}
+.img{
+    display: flex;
+    gap: 0px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.search-input{
+    min-width: 350px;
+    height: 25px;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.aside{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+ .video-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    padding: 2px;
+ }
+.video-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.channel-icon{
+    margin-right: 2px;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+}
+
+
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
